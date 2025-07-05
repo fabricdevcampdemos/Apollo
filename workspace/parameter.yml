@@ -1,0 +1,17 @@
+find_replace:
+
+    # [Workspace Id]
+    - find_value: "849b5b2f-361a-4b89-bbd9-6c8ef1e7c692" # [Apollo-dev]
+      replace_value:
+        TEST: "2d381f21-d196-4a58-b975-e0bc6af41578" # [Apollo-test]
+
+    # [Product Sales Summary.Report]
+    - find_value: "ff142ec9-22b5-4ff7-879f-f94dfe530ce4" # [Apollo-dev]
+      replace_value:
+        TEST: "0e366e18-62b4-43ee-96af-8916ed16f69e" # [Apollo-test]
+
+    # [Product Sales Imported Model.SemanticModel]
+    - find_value: "e3a37701-2bc7-4a62-b842-6782d993ce90" # [Apollo-dev]
+      replace_value:
+        TEST: "f0be67a3-283e-4de3-9bcd-621f69047f1e" # [Apollo-test]
+
